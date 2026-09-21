@@ -83,20 +83,21 @@ These insights empower stakeholders with key business metrics, enabling strategi
 ```
 data-warehouse-project/
 │
-├── datasets/                           # Raw datasets used for the project (ERP and CRM data)
+├── bike_lakehouse_2026/
+│   │
+│   ├── datasets/                       # Raw ERP and CRM datasets
+│   │
+│   └── scripts/                        # SQL scripts for ETL and transformations
+│       ├── bronze/                     # Scripts for extracting and loading raw data
+│       ├── silver/                     # Scripts for cleaning and transforming data
+│       └── gold/                       # Scripts for creating analytical models
 │
 ├── docs/                               # Project documentation and architecture details
-│   ├── data_architecture.drawio        # Draw.io file shows the project's architecture
-│   ├── data_catalog.md                 # Catalog of datasets, including field descriptions and metadata
-│   ├── data_flow.drawio                # Draw.io file for the data flow diagram
-│   ├── data_models.drawio              # Draw.io file for data models (star schema)
+│   ├── data_architecture.drawio        # Project architecture
+│   ├── data_catalog.md                 # Dataset and field descriptions
+│   ├── data_flow.drawio                # Data flow diagram
+│   └── data_models.drawio              # Star schema/data model
 │
-├── scripts/                            # SQL scripts for ETL and transformations
-│   ├── bronze/                         # Scripts for extracting and loading raw data
-│   ├── silver/                         # Scripts for cleaning and transforming data
-│   ├── gold/                           # Scripts for creating analytical models
-│
-│
-├── README.md                           # Project overview and instructions
+└── README.md                           # Project overview and instructions
 ```
 ---
