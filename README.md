@@ -96,6 +96,7 @@ data-warehouse-project/
 │   ├── data_architecture.drawio        # Project architecture
 │   ├── data_catalog.md                 # Dataset and field descriptions
 │   ├── data_flow.drawio                # Data flow diagram
+│   ├── data_integration.drawio         # ERP and CRM data integration
 │   └── data_models.drawio              # Star schema/data model
 │
 └── README.md                           # Project overview and instructions
