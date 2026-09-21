@@ -45,7 +45,7 @@ This project involves:
 
 ## 🛠️ Important Links & Tools:
 
-- **[Datasets](datasets/):** Access to the project dataset (csv files).
+- **[Datasets](bike_lakehouse_2026/datasets):** Access to the project dataset (csv files).
 - **[Git Repository](https://github.com/):** Set up a GitHub account and repository to manage, version, and collaborate on your code efficiently.
 - **[DrawIO](https://www.drawio.com/):** Design data architecture, models, flows, and diagrams.
 
